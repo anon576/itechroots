@@ -186,7 +186,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     z-index: 10;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(0px);
 }
 
 .nav {
