@@ -10,6 +10,6 @@ function animateButton() {
     button.style.transform = `scale(${Math.max(windowWidth, windowHeight)})`;
 
     setTimeout(() => {
-        window.location.href = "../templates/homepage.html"; // Change this to your home page URL
+        window.location.href = "templates/homepage.html"; // Change this to your home page URL
     }, 1000);
 }
