@@ -294,7 +294,6 @@ button:hover {
         height: 100vh;
         overflow-y: auto;
     }
-    
 }
 
 .homepage img {
@@ -755,9 +754,14 @@ button:hover {
 
 .footer a:hover{
     scale: 2;
+    color: #ffffff;
 }
 
 .footer .icons{
     display: flex;
     gap: 20px;
+}
+
+.footer .contact a:hover{
+    font-weight: 600;    
 }
