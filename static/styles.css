@@ -683,7 +683,7 @@ button:hover {
 }
 
 .back:hover {
-    box-shadow: 10px 10px 10px #00ffd5;
+    box-shadow: 2px 10px 1px 10px #00ffd5;
     /* width: 100%; */
 }
 
