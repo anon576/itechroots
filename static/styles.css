@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
-
 /* ===================================welcomepage========================== */
+  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Comic Neue', cursive;
     scroll-behavior: smooth;
 }
 
@@ -222,7 +222,7 @@ button:hover {
 }
 
 .nav>.nav-links>a {
-    font-family:Comic Sans MS, Lucida Handwriting;
+    font-family: 'Comic Neue', cursive;
     font-weight: bold;
     display: inline-block;
     padding: 13px 10px 13px 10px;
@@ -618,7 +618,9 @@ button:hover {
 
 .front,
 .back {
+
     font-family: 'Comic Neue', cursive;
+
     display: flex;
     border-radius: 6px;
     background-position: center;
@@ -643,7 +645,7 @@ button:hover {
     font-weight: 600;
     color: #fff;
     overflow: hidden;
-     font-family: 'Comic Neue', cursive;
+    font-family: 'Comic Neue', cursive;
 }
 
 .front:hover {
@@ -738,7 +740,7 @@ button:hover {
 }
 
 .back div p{
-    font-family: cursive;
+    font-family: 'Comic Neue', cursive;
 }
 
 
