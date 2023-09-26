@@ -619,8 +619,6 @@ button:hover {
 .front,
 .back {
     font-family: 'Comic Neue', cursive;
-
-    font-family: cursive;
     display: flex;
     border-radius: 6px;
     background-position: center;
