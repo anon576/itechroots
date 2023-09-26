@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:cursive, 'Courier New', Courier, monospace;
+    font-family:cursive;
     scroll-behavior: smooth;
 }
 
