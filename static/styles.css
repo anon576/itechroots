@@ -1,3 +1,16 @@
+font-famliy:cursive:
+.font{
+box-shodow:2px 10px 1px 10px #00ffd5;
+}
+
+.back:hower{
+box-shadow:2px 10px 1px 10px #00ffd5;
+}
+
+.nav>nav-links{
+font-family:cursive;
+font-weight:bold;
+}
 /* ===================================welcomepage========================== */
 * {
     margin: 0;
