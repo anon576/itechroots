@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Comic Sans MS','Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     scroll-behavior: smooth;
 }
 
@@ -220,7 +220,7 @@ button:hover {
 }
 
 .nav>.nav-links>a {
-    font-family: cursive;
+    font-family:Comic Sans MS, Lucida Handwriting;
     font-weight: bold;
     display: inline-block;
     padding: 13px 10px 13px 10px;
@@ -583,7 +583,7 @@ button:hover {
 }
 
 .description {
-    font-family: cursive;
+    font-family: Comic Sans MS, Lucida Handwriting;
     width: 100%;
     margin-top: 0;
     margin-left: 1rem;
@@ -779,7 +779,6 @@ button:hover {
 .footer .contact a:hover{
     font-weight: 600;    
 }
-
 
 
 
