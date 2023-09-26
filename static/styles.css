@@ -1,13 +1,10 @@
-
-
 /* ===================================welcomepage========================== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:cursive;
+    font-family: 'Courier New', Courier, monospace;
     scroll-behavior: smooth;
-    
 }
 
 .welcomebackgroud {
@@ -181,6 +178,7 @@ button:hover {
 /* ===================================homepage==================================== */
 
 .homepage .navbar {
+    
     width: 90%;
     margin-left: 5%;
     position: fixed;
@@ -193,6 +191,7 @@ button:hover {
 }
 
 .nav {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -213,8 +212,6 @@ button:hover {
 
 .nav>.nav-links {
     /* display: inline;
-    font-family:cursive;
-    font-weight:bold;
     float: right;
     font-size: 18px; */
     display: flex;
@@ -223,6 +220,8 @@ button:hover {
 }
 
 .nav>.nav-links>a {
+    font-family: cursive;
+    font-weight: bold;
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
@@ -584,6 +583,7 @@ button:hover {
 }
 
 .description {
+    font-family: cursive;
     width: 100%;
     margin-top: 0;
     margin-left: 1rem;
@@ -598,7 +598,7 @@ button:hover {
     height: 400px;
     min-height: 400px;
     perspective: 1000px;
-    margin: 1rem;
+    margin: 1.5rem;
     position: relative;
 }
 
@@ -616,6 +616,8 @@ button:hover {
 
 .front,
 .back {
+
+    font-family: cursive;
     display: flex;
     border-radius: 6px;
     background-position: center;
@@ -633,13 +635,14 @@ button:hover {
 }
 
 .front {
+    box-shadow: 2px 10px 1px 10px #00ffd5;
     background-size: cover;
     padding: 2rem;
     font-size: 1.618rem;
     font-weight: 600;
     color: #fff;
     overflow: hidden;
-    font-family: Poppins, sans-serif;
+    font-family: cursive;
 }
 
 .front:hover {
@@ -685,10 +688,12 @@ button:hover {
 
 .back:hover {
     box-shadow: 2px 10px 1px 10px #00ffd5;
+    border: 2px 10px 1px 10px #00ffd5;
     /* width: 100%; */
 }
 
 .card:hover .back {
+   
     transform: rotateY(0deg);
 }
 
@@ -731,6 +736,10 @@ button:hover {
     box-shadow: 2px 2px 8px #00ffd5;
 }
 
+.back div p{
+    font-family: cursive;
+}
+
 
 
 /* =================footer============================================== */
@@ -770,3 +779,7 @@ button:hover {
 .footer .contact a:hover{
     font-weight: 600;    
 }
+
+
+
+
