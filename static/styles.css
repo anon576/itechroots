@@ -1,4 +1,4 @@
-font-famliy:cursive:
+
 .font{
 box-shodow:2px 10px 1px 10px #00ffd5;
 }
@@ -16,7 +16,7 @@ font-weight:bold;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:cursive 'Courier New', Courier, monospace;
     scroll-behavior: smooth;
 }
 
