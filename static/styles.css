@@ -212,6 +212,8 @@ button:hover {
 
 .nav>.nav-links {
     /* display: inline;
+    font-family:cursive;
+    font-weight:bold;
     float: right;
     font-size: 18px; */
     display: flex;
