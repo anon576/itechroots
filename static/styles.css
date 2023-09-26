@@ -7,7 +7,7 @@
     box-sizing: border-box;
     font-family:cursive;
     scroll-behavior: smooth;
-    box-shodow:2px 10px 1px 10px #00ffd5;
+    box-shadow:2px 10px 1px 10px #00ffd5;
 }
 
 .welcomebackgroud {
