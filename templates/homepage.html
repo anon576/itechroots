@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="itechroots itechroot it ycce college fest techfest webiste ."/>
+    <meta name="description" content="itechroots itechroot it ycce college fest techfest webiste ." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Itechroots-Techfest of IT Department</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../static/images&videos/itechroots logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../static/styles.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -15,7 +18,8 @@
 <body>
     <div class="homepage" id="home">
         <div class="welcome-container">
-            <video id="video-background" autoplay loop muted poster="poster.jpg">
+            <video id="video-background" autoplay loop muted poster="poster.jpg" >
+                <!-- style="object-fit: fill; height:100vh; -->
                 <!-- Replace 'video.mp4' with the path to your video file -->
                 <!-- <source src="../static/images&videos/homebackground2.mp4" type="video/mp4" class="vidback2"> -->
                 <!-- <source src="../static/images&videos/homebackground.mp4" type="video/mp4" class="vidback"> -->
@@ -38,7 +42,7 @@
                 <input type="checkbox" id="nav-check">
                 <div class="nav-header">
                     <div class="nav-title">
-                        <a href="homepage.html"><img src="../static/images&videos/logo.png" alt=""></a>
+                        <a href="homepage.html"><img src="../static/images&videos/logo.png" style="width: 100px; height: 100px;"></a>
                     </div>
                 </div>
                 <div class="nav-btn">
@@ -49,27 +53,33 @@
                     </label>
                 </div>
 
-                <div class="nav-links" >
-                    <a href="#home" >HOME</a>
-                    <a href="#about" >ABOUT US</a>
+                <div class="nav-links">
+
+                    <!-- <a href="#" >SPONSERS</a> -->
+                    <a href="#home">HOME</a>
+                    <a href="#about">ABOUT US</a>
                     <a href="#events">EVENTS</a>
-                     <a href="#sponser" >SPONSORS</a>
-                    <a href="#contact" >CONTACT</a>
+                    <a href="#sponser">SPONSERS</a>
+                    <a href="#contact">CONTACT</a>
                 </div>
             </div>
         </section>
 
         <section class="top_content" data-aos="zoom-in">
-            <h1><img src="../static/images&videos/logo.png" alt=""><br>IS BACK</h1>
+            <h1 style="font-family: 'Comic Neue', cursive;color: #A6F6FF;"><img src="../static/images&videos/logo.png">IS BACK</h1>
+            <!-- <span style="width: 100%;"><img src="../static/images&videos/Untitled-1.png" style="width: 50%; height: 120px;"></span> -->
             <!-- <h1>ITECHROOTS 13.0 IS BACK</h1> -->
         </section>
 
         <section class="mid_content" id="about">
             <div class="mid_main">
                 <div class="mid_text" data-aos="slide-right">
-                    <h2>Itechroots</h2>
+                    <h2>ITechroots</h2>
                     <h3>Technology is best when it brings people together.</h3>
-                    <p class="description" >At ITECHROOTS 13.0, we are dedicated to fostering a vibrant community of IT enthusiasts, professionals, and visionaries. Our mission is to provide a platform that brings together the brightest minds in the Information Technology landscape to explore, share, and shape the future of technology. </p>
+                    <p class="description">At ITECHROOTS 13.0, we are dedicated to fostering a vibrant community of IT
+                        enthusiasts, professionals, and visionaries. Our mission is to provide a platform that brings
+                        together the brightest minds in the Information Technology landscape to explore, share, and
+                        shape the future of technology. </p>
                 </div>
                 <div class="mid_intro" data-aos="slide-left">
                     <img src="../static/images&videos/computer.png" alt="">
@@ -83,43 +93,66 @@
             <section class="e_sports" id="events">
                 <div class="content">
                     <h1 class="heading">E-Sports Events</h1>
-                    <p class="description">Welcome to the exhilarating world of esports, where video games transform into a global spectacle of skill, strategy, and competition. Join us as we delve into the heart-pounding action, passionate communities, and rising stars of this rapidly growing industry. Get ready to witness the future of sports, where virtual arenas become the battlegrounds for champions.</p>
+                    <p class="description">Welcome to the exhilarating world of esports, where video games transform
+                        into a global spectacle of skill, strategy, and competition. Join us as we delve into the
+                        heart-pounding action, passionate communities, and rising stars of this rapidly growing
+                        industry. Get ready to witness the future of sports, where virtual arenas become the
+                        battlegrounds for champions.</p>
                     <a class="card" href="#!" data-aos="slide-right">
-                        <div class="front" style="background-image: url(../static/images&videos/BGMI.png)">
+                        <div class="front" style="background-image:url(../static/images&videos/BGMI.png);">  
+                            <!-- "background-image: url(../static/images&videos/BGMI.png)" -->
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
                         </div>
                         <div class="back">
                             <div>
-                                <p >Welcome to the adrenaline-fueled battlegrounds of 'BGMI'! 
-                                    Prepare to dive into the heart-pounding world of competitive gaming where strategy, skill, and teamwork converge. </p>
-                                <p>'BGMI' is the ultimate esports sensation that promises intense action, fierce battles, and endless excitement. Join the battle, stake your claim, and rise to the top as you embark on this epic gaming journey with ITECHROOTS 13.0.
+                                <p>Welcome to the adrenaline-fueled battlegrounds of 'BGMI'!
+                                    Prepare to dive into the heart-pounding world of competitive gaming where strategy,
+                                    skill, and teamwork converge. </p>
+                                <p>'BGMI' is the ultimate esports sensation that promises intense action, fierce
+                                    battles, and endless excitement. Join the battle, stake your claim, and rise to the
+                                    top as you embark on this epic gaming journey with ITECHROOTS 13.0.
                                 </p>
-                                <button class="button" onclick="window.open('https://forms.gle/ceGGoR2R2Et2tRTu5', '_blank');">Click Here</button>
+                                <button class="button"
+                                    onclick="window.open('https://forms.gle/ceGGoR2R2Et2tRTu5', '_blank');">Register
+                                    Here</button>
 
                             </div>
                         </div>
                     </a>
                     <a class="card" href="#!" data-aos="zoom-in">
-                        <div class="front" style="background-image: url(../static/images&videos/VALO\ 2.png)">
+                        <div class="front" style="background-image: url(../static/images&videos/VALO\ 2.png);">
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
                         </div>
                         <div class="back">
                             <div>
-                                <p>Welcome to ITECHROOTS 13.0, where the gaming arena is set on fire with "Valorant"! Get ready to immerse yourself in the world of tactical shooters, where every move counts and precision is key.</p>
-                                <p>Join us as we dive into the heart-pounding action of Valorant, where strategic gameplay meets cutting-edge technology. It's time to prove your skills, make split-second decisions, and compete with the best in the world. Let the battle begin!</p>
-                                <button class="button" onclick="window.open('https://forms.gle/SAEUoK2jNRjSUPV6A', '_blank');">Click Here</button>
+                                <p>Welcome to ITECHROOTS 13.0, where the gaming arena is set on fire with "Valorant"!
+                                    Get ready to immerse yourself in the world of tactical shooters, where every move
+                                    counts and precision is key.</p>
+                                <p>Join us as we dive into the heart-pounding action of Valorant, where strategic
+                                    gameplay meets cutting-edge technology. It's time to prove your skills, make
+                                    split-second decisions, and compete with the best in the world. Let the battle
+                                    begin!</p>
+                                <button class="button"
+                                    onclick="window.open('https://forms.gle/SAEUoK2jNRjSUPV6A', '_blank');">Register
+                                    Here</button>
                             </div>
                         </div>
                     </a>
                     <a class="card" href="#!" data-aos="slide-left">
-                        <div class="front" style="background-image: url(../static/images&videos/beatthemark.png)">
+                        <div class="front" style="background-image: url(../static/images&videos/beatthemark.png);">
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
                         </div>
                         <div class="back">
                             <div>
-                                <p>Welcome to 'Beat the Mark,' the ultimate esports experience! Dive into the world of competitive gaming like never before as you embark on a journey to outplay and outsmart your opponents.</p>
-                                <p> Get ready to showcase your skills, strategize, and rise to the top in this thrilling esports competition. Are you prepared to beat the mark and become a legend in the gaming world?</p>
-                                <button class="button" onclick="window.open('https://forms.gle/Fz4iBHCmU1q5F4pZ6', '_blank');">Click Here</button>
+                                <p>Welcome to 'Beat the Mark,' the ultimate esports experience! Dive into the world of
+                                    competitive gaming like never before as you embark on a journey to outplay and
+                                    outsmart your opponents.</p>
+                                <p> Get ready to showcase your skills, strategize, and rise to the top in this thrilling
+                                    esports competition. Are you prepared to beat the mark and become a legend in the
+                                    gaming world?</p>
+                                <button class="button"
+                                    onclick="window.open('https://forms.gle/Fz4iBHCmU1q5F4pZ6', '_blank');">Register
+                                    Here</button>
                             </div>
                         </div>
                     </a>
@@ -130,15 +163,20 @@
             <section class="e_sports">
                 <div class="content">
                     <h1 class="heading">Technical Events</h1>
-                    <p class="description">Our technical events promise an unforgettable experience, bringing together brilliant minds, cutting-edge technology, and a passion for innovation. </p>
+                    <p class="description">Our technical events promise an unforgettable experience, bringing together
+                        brilliant minds, cutting-edge technology, and a passion for innovation. </p>
                     <a class="card" href="#!" data-aos="slide-right">
                         <div class="front" style="background-image: url(../static/images&videos/hackthon.png)">
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
                         </div>
                         <div class="back">
                             <div>
-                                <p>Hackathon is an intensive, time-bound event where teams of creative individuals collaborate to solve real-world problems through innovative and often unconventional means. It fosters creativity, teamwork, and rapid learning.</p>
-                                <button class="button" onclick="window.open('https://forms.gle/LYfne9eb925p4z8L9', '_blank');">Click Here</button>
+                                <p>Hackathon is an intensive, time-bound event where teams of creative individuals
+                                    collaborate to solve real-world problems through innovative and often unconventional
+                                    means. It fosters creativity, teamwork, and rapid learning.</p>
+                                <button class="button"
+                                    onclick="window.open('https://forms.gle/LYfne9eb925p4z8L9', '_blank');">Register
+                                    Here</button>
                             </div>
                         </div>
                     </a>
@@ -148,9 +186,13 @@
                         </div>
                         <div class="back">
                             <div>
-                                <p>Web Design Jam is your chance to dive headfirst into the world of web design, where creativity meets innovation.
-                                    you'll have the opportunity to collaborate & compete, come up with Innovative Solutions, most importantly Launch Your Vision. </p>
-                                    <button class="button" onclick="window.open('https://forms.gle/xjJ9xg4eg9sf9TtW6', '_blank');">Click Here</button>
+                                <p>Web Design Jam is your chance to dive headfirst into the world of web design, where
+                                    creativity meets innovation.
+                                    you'll have the opportunity to collaborate & compete, come up with Innovative
+                                    Solutions, most importantly Launch Your Vision. </p>
+                                <button class="button"
+                                    onclick="window.open('https://forms.gle/xjJ9xg4eg9sf9TtW6', '_blank');">Register
+                                    Here</button>
                             </div>
                         </div>
                     </a>
@@ -160,9 +202,14 @@
                         </div>
                         <div class="back">
                             <div>
-                                <p>Quiz mania encourages participants to explore a wide range of topics and subjects. They promote a thirst for knowledge, motivating individuals to delve deeper into subjects they might not have encountered otherwise.</p>
-                                <p>They equip individuals with the knowledge, skills, and confidence needed to excel in various aspects of life.</p>
-                                <button class="button" onclick="window.open('https://forms.gle/cqnQdiFDY7Jr11nS9', '_blank');">Click Here</button>
+                                <p>Quiz mania encourages participants to explore a wide range of topics and subjects.
+                                    They promote a thirst for knowledge, motivating individuals to delve deeper into
+                                    subjects they might not have encountered otherwise.</p>
+                                <p>They equip individuals with the knowledge, skills, and confidence needed to excel in
+                                    various aspects of life.</p>
+                                <button class="button"
+                                    onclick="window.open('https://forms.gle/cqnQdiFDY7Jr11nS9', '_blank');">Register
+                                    Here</button>
                             </div>
                         </div>
                     </a>
@@ -173,17 +220,22 @@
             <section class="e_sports">
                 <div class="content">
                     <h1 class="heading">Non-Technical Events</h1>
-                    <p class="description">We believe in celebrating Diversity and Creativity. ITechRoots presents a vibrant tapestry of cultural events that will leave you spellbound and inspired</p>
+                    <p class="description">We believe in celebrating Diversity and Creativity. ITechRoots presents a
+                        vibrant tapestry of cultural events that will leave you spellbound and inspired</p>
                     <a class="card" href="#!" data-aos="slide-right">
                         <div class="front" style="background-image: url(../static/images&videos/photoarena.png)">
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
                         </div>
                         <div class="back">
                             <div>
-                                <p>This event encourages photographers to tell powerful stories through their images, fostering a deeper connection with their subjects and viewers.</p>
-                                <p> It serves as a driving force that motivates photographers to continually strive for excellence and contribute to the rich and diverse tapestry of visual storytelling.
+                                <p>This event encourages photographers to tell powerful stories through their images,
+                                    fostering a deeper connection with their subjects and viewers.</p>
+                                <p> It serves as a driving force that motivates photographers to continually strive for
+                                    excellence and contribute to the rich and diverse tapestry of visual storytelling.
                                 </p>
-                                <button class="button" onclick="window.open('https://forms.gle/9ciUNZSGTCzdkVD97', '_blank');">Click Here</button>
+                                <button class="button"
+                                    onclick="window.open('https://forms.gle/9ciUNZSGTCzdkVD97', '_blank');">Register
+                                    Here</button>
                             </div>
                         </div>
                     </a>
@@ -193,9 +245,14 @@
                         </div>
                         <div class="back">
                             <div>
-                                <p>Atrangi helps you experience the rhythm of the world through captivating dance performances. From classical to contemporary, our stage will come alive with the magic of movement. </p>
-                                <p> Here dancers are not just competitors; they are alchemists, turning sweat and dedication into the gold of unforgettable performances.</p>
-                                <button class="button" onclick="window.open('https://forms.gle/3tsKHpBqxHNotqwx6', '_blank');">Click Here</button>
+                                <p>Atrangi helps you experience the rhythm of the world through captivating dance
+                                    performances. From classical to contemporary, our stage will come alive with the
+                                    magic of movement. </p>
+                                <p> Here dancers are not just competitors; they are alchemists, turning sweat and
+                                    dedication into the gold of unforgettable performances.</p>
+                                <button class="button"
+                                    onclick="window.open('https://forms.gle/3tsKHpBqxHNotqwx6', '_blank');">Register
+                                    Here</button>
                             </div>
                         </div>
                     </a>
@@ -205,8 +262,14 @@
                         </div>
                         <div class="back">
                             <div>
-                                <p>Our college fest proudly presents an evening where creativity knows no bounds and self-expression takes center stage. The Open Mic is not just an event; it's an invitation for every student, artist, and poet to shine, share, and inspire. Here you will witness a symphony of voices, a flood of emotions, and an explosion of talent.</p>
-                                <button class="button" onclick="window.open('https://forms.gle/tWhdUubZa4f3S5qt8', '_blank');">Click Here</button>
+                                <p>Our college fest proudly presents an evening where creativity knows no bounds and
+                                    self-expression takes center stage. The Open Mic is not just an event; it's an
+                                    invitation for every student, artist, and poet to shine, share, and inspire. Here
+                                    you will witness a symphony of voices, a flood of emotions, and an explosion of
+                                    talent.</p>
+                                <button class="button"
+                                    onclick="window.open('https://forms.gle/tWhdUubZa4f3S5qt8', '_blank');">Register
+                                    Here</button>
                             </div>
                         </div>
                     </a>
@@ -216,15 +279,20 @@
                         </div>
                         <div class="back">
                             <div>
-                                <p>This event introduces you into a world where mystery and excitement reign supreme, where you'll unravel clues, decode riddles, and navigate through a labyrinth of challenges.</p>
-                                <p>  It's an unforgettable adventure that will test your intellect, teamwork, and problem-solving skills like never before.
+                                <p>This event introduces you into a world where mystery and excitement reign supreme,
+                                    where you'll unravel clues, decode riddles, and navigate through a labyrinth of
+                                    challenges.</p>
+                                <p> It's an unforgettable adventure that will test your intellect, teamwork, and
+                                    problem-solving skills like never before.
                                 </p>
-                                <button class="button" onclick="window.open('https://forms.gle/SYFZWpc9k2hY25Pv6', '_blank');">Click Here</button>
+                                <button class="button"
+                                    onclick="window.open('https://forms.gle/SYFZWpc9k2hY25Pv6', '_blank');">Register
+                                    Here</button>
                             </div>
                         </div>
                     </a>
-                   
-                                <!-- <a class="card" href="#!" data-aos="slide-left">
+
+                    <!-- <a class="card" href="#!" data-aos="slide-left">
                         <div class="front" style="background-image: url(../static/images&videos/atrangi.png)">
                            
                         </div>
@@ -241,17 +309,24 @@
             <section class="e_sports" id="events">
                 <div class="content">
                     <h1 class="heading">Sports Events</h1>
-                    <p class="description">This electrifying sports event is not just about competition; it's a celebration of innovation, teamwork, and the human spirit's unyielding drive for excellence.
-                        This event is important because it showcases how technology is transforming the world of sports, pushing boundaries, and redefining what's possible.</p>
+                    <p class="description">This electrifying sports event is not just about competition; it's a
+                        celebration of innovation, teamwork, and the human spirit's unyielding drive for excellence.
+                        This event is important because it showcases how technology is transforming the world of sports,
+                        pushing boundaries, and redefining what's possible.</p>
                     <a class="card" href="#!" data-aos="slide-right">
                         <div class="front" style="background-image: url(../static/images&videos/CHESS.png)">
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
                         </div>
                         <div class="back">
                             <div>
-                                <p>Welcome to ITECHROOTS 13.0, where strategy meets precision in the ultimate sports game of chess. In this timeless battle of intellects, participants engage in a cerebral showdown, maneuvering their pieces strategically across the board to outsmart their opponents.  </p>
-                                
-                                <button class="button" onclick="window.open('https://forms.gle/GNAtVjXLZMZNPvTa7', '_blank');">Click Here</button>
+                                <p>Welcome to ITECHROOTS 13.0, where strategy meets precision in the ultimate sports
+                                    game of chess. In this timeless battle of intellects, participants engage in a
+                                    cerebral showdown, maneuvering their pieces strategically across the board to
+                                    outsmart their opponents. </p>
+
+                                <button class="button"
+                                    onclick="window.open('https://forms.gle/GNAtVjXLZMZNPvTa7', '_blank');">Register
+                                    Here</button>
                             </div>
                         </div>
                     </a>
@@ -261,10 +336,15 @@
                         </div>
                         <div class="back">
                             <div>
-                                <p>Introducing "Arm Wrestling" at ITECHROOTS 13.0: Get ready to flex your muscles and test your strength in the ultimate showdown of arm wrestling prowess. It's time to lock arms, feel the adrenaline, and prove you've got the power to conquer the table. </p>
+                                <p>Introducing "Arm Wrestling" at ITECHROOTS 13.0: Get ready to flex your muscles and
+                                    test your strength in the ultimate showdown of arm wrestling prowess. It's time to
+                                    lock arms, feel the adrenaline, and prove you've got the power to conquer the table.
+                                </p>
                                 <p>Are you up for the challenge?
                                     Join us for an electrifying display of raw strength at ITECHROOTS 13.0!</p>
-                                    <button class="button" onclick="window.open('https://forms.gle/jk3sAdAHoCcWhe8Y6', '_blank');">Click Here</button>
+                                <button class="button"
+                                    onclick="window.open('https://forms.gle/jk3sAdAHoCcWhe8Y6', '_blank');">Register
+                                    Here</button>
                             </div>
                         </div>
                     </a>
@@ -274,10 +354,15 @@
                         </div>
                         <div class="back">
                             <div>
-                                 <p>Introducing "Box Cricket" at ITECHROOTS 13.0! Get ready to experience the thrill of cricket in a compact and electrifying format. This fast-paced indoor game brings all the excitement of the cricket field into a confined space, offering non-stop action and entertainment. </p>
-                                <p>Gather your team, strategize, and compete in this unique twist on the classic sport. 
-                </p>
-                                    <button class="button" onclick="window.open('https://forms.gle/XVcSvhZ5iG4TRqLc8', '_blank');">Click Here</button>
+                                <p>Introducing "Box Cricket" at ITECHROOTS 13.0! Get ready to experience the thrill of
+                                    cricket in a compact and electrifying format. This fast-paced indoor game brings all
+                                    the excitement of the cricket field into a confined space, offering non-stop action
+                                    and entertainment. </p>
+                                <p>Gather your team, strategize, and compete in this unique twist on the classic sport.
+                                </p>
+                                <button class="button"
+                                    onclick="window.open('https://forms.gle/XVcSvhZ5iG4TRqLc8', '_blank');">Register
+                                    Here</button>
                             </div>
                         </div>
                     </a>
@@ -288,9 +373,14 @@
                         </div>
                         <div class="back">
                             <div>
-                               <p>"Footsal" is set to take ITECHROOTS 13.0 by storm, combining the skill and excitement of traditional football with the fast-paced action of an outdoor arena. Join us for a thrilling experience that will keep you on the edge of your seat. </p>
-                                <p>Strap on your boots, sharpen your reflexes, and get ready to dominate the mini-pitch in this exhilarating game of "Footsal"!</p>
-                                <button class="button" onclick="window.open('https://forms.gle/K9tv8ujMcMRMbBhdA', '_blank');">Click Here</button>
+                                <p>"Footsal" is set to take ITECHROOTS 13.0 by storm, combining the skill and excitement
+                                    of traditional football with the fast-paced action of an outdoor arena. Join us for
+                                    a thrilling experience that will keep you on the edge of your seat. </p>
+                                <p>Strap on your boots, sharpen your reflexes, and get ready to dominate the mini-pitch
+                                    in this exhilarating game of "Footsal"!</p>
+                                <button class="button"
+                                    onclick="window.open('https://forms.gle/K9tv8ujMcMRMbBhdA', '_blank');">Register
+                                    Here</button>
                             </div>
                         </div>
                     </a>
@@ -300,33 +390,35 @@
             <section class="e_sports" id="events">
                 <div class="content">
                     <h1 class="heading">Workshop</h1>
-                    <p class="description">Every year we announce a series of exhilarating technology workshops. To foster innovation, spark creativity, and equip our students with cutting-edge skills in the ever-evolving world of technology.</p>
+                    <p class="description">Every year we announce a series of exhilarating technology workshops. To
+                        foster innovation, spark creativity, and equip our students with cutting-edge skills in the
+                        ever-evolving world of technology.</p>
                     <a class="card" href="#!" data-aos="slide-right">
                         <div class="front" style="background-image: url(../static/images&videos/woekshop.png)">
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisi.</p> -->
                         </div>
                         <div class="back">
                             <div>
-                                <p>Every year we announce a series of exhilarating technology workshops. To foster innovation, spark creativity, and equip our students with cutting-edge skills in the ever-evolving world of technology.</p>
-                               
+                                <p>Every year we announce a series of exhilarating technology workshops. To foster
+                                    innovation, spark creativity, and equip our students with cutting-edge skills in the
+                                    ever-evolving world of technology.</p>
+
                                 <button class="button">Coming Soon</button>
                             </div>
                         </div>
                     </a>
-                   
+
                 </div>
             </section>
 
-             <section class="e_sports" id="sponser">
+            <section class="e_sports" id="sponser">
                 <div class="content">
-                    <h1 class="heading">Sponsors</h1>
+                    <h1 class="heading">Sponser</h1>
                       
                   
                     <div class="car"   data-aos="slide-left">
                         <img src="../static/sponser1.png" alt="">
                     </div>
-    
-                                   
                    
                     <div class="car"  data-aos="slide-right">
                         <img src="../static/sponser3.png" alt="">
@@ -338,18 +430,17 @@
 
         </div>
 
-       
-
         <section class="footer" id="contact">
             <!-- <div class="footer_content"> -->
-                <h2>ITECHROOTS &#169; 2023-24</h2>
-                <div class="icons">
-                    <a href="https://www.instagram.com/itechroots_13.0/" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/company/ycceitechroots/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                </div>
-                <div class="contact">
-                    <a href="mailto:itechroots.it@gmail.com">Contact us</a>
-                </div>
+            <h2>ITECHROOTS &#169; 2023-24</h2>
+            <div class="icons">
+                <a href="https://www.instagram.com/itechroots_13.0/" target="_blank"><i class="fa fa-instagram" style="color: white;"></i></a>
+                <a href="https://www.linkedin.com/company/ycceitechroots/" target="_blank"><i
+                        class="fa fa-linkedin" style="color: white;"></i></a>
+            </div>
+            <div class="contact">
+                <a href="mailto:itechroots.it@gmail.com">Contact us</a>
+            </div>
             <!-- </div> -->
         </section>
 
