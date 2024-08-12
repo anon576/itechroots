@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6204253e.css",
+    "main.js": "/static/js/main.69b29e0c.js",
+    "static/js/952.2b99fb40.chunk.js": "/static/js/952.2b99fb40.chunk.js",
+    "static/media/11.png": "/static/media/11.64374955d21ab5a3bcb5.png",
+    "static/media/4.jpeg": "/static/media/4.c25e6f18b94bad4c61f5.jpeg",
+    "static/media/3.jpeg": "/static/media/3.1295dba8caca28d14f92.jpeg",
+    "static/media/10.jpeg": "/static/media/10.f3db521748224beab499.jpeg",
+    "static/media/6.jpeg": "/static/media/6.8330fcc395163eb625e8.jpeg",
+    "static/media/7.jpg": "/static/media/7.355dd3a5ea3e75bf54be.jpg",
+    "static/media/9.jpg": "/static/media/9.98bb509bac8d15014f69.jpg",
+    "static/media/13.jpg": "/static/media/13.c2fd8de5640a72de5a0d.jpg",
+    "static/media/4.jpg": "/static/media/4.9e63511430f939b159bb.jpg",
+    "static/media/1.jpeg": "/static/media/1.c3417df5bd72e7c5148e.jpeg",
+    "static/media/14.jpg": "/static/media/14.f1f9f41cd1740fa21588.jpg",
+    "static/media/6.jpg": "/static/media/6.b6b89f810bddc6e139bb.jpg",
+    "static/media/8.jpg": "/static/media/8.bb20988f35340e4ea752.jpg",
+    "static/media/1.jpg": "/static/media/1.d408a99b90c2d2100416.jpg",
+    "static/media/2.jpeg": "/static/media/2.c9e8a685ee5a2be7556d.jpeg",
+    "static/media/9.jpeg": "/static/media/9.52d1284ab88c3533071f.jpeg",
+    "static/media/10.jpg": "/static/media/10.47954fb7a197bde3195a.jpg",
+    "static/media/15.jpg": "/static/media/15.1d82d1d0d4c97681beb2.jpg",
+    "static/media/12.jpg": "/static/media/12.bd567e4f622789de7674.jpg",
+    "static/media/2.jpg": "/static/media/2.4180ce7b8e387921a0af.jpg",
+    "static/media/5.jpeg": "/static/media/5.9eeb0eba40cb2503b9c1.jpeg",
+    "static/media/3.jpg": "/static/media/3.1982f66614c6e7f74e82.jpg",
+    "static/media/5.jpg": "/static/media/5.4d94a1b90a748ad72184.jpg",
+    "static/media/kanan.jpeg": "/static/media/kanan.2518e249fb74ed145ff3.jpeg",
+    "static/media/lokmat.jpeg": "/static/media/lokmat.f5089568791e3d2b4797.jpeg",
+    "static/media/iquanta.png": "/static/media/iquanta.f622ab8f19447cdea0c2.png",
+    "index.html": "/index.html",
+    "main.6204253e.css.map": "/static/css/main.6204253e.css.map",
+    "main.69b29e0c.js.map": "/static/js/main.69b29e0c.js.map",
+    "952.2b99fb40.chunk.js.map": "/static/js/952.2b99fb40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6204253e.css",
+    "static/js/main.69b29e0c.js"
+  ]
+}
